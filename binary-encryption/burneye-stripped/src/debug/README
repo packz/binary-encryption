@@ -1,0 +1,5 @@
+
+memdump.c is some small utility to help you debugging low level memory
+layouts in possibly hostile code.
+
+

@@ -1,0 +1,20 @@
+
+
+This is about thirty percent of the original burneye source code. This source
+distribution is to be used for educational purposes, so you can play with the
+things mentioned in the phrack article.
+
+Note that the sourcefile which contains copyright licenses that require GPL
+(only snprintf.c from wuftpd so far) are only present in this source
+distribution for debug purposes in this example source. They are never
+distributed with the binary version of burneye.
+
+
+The parts of this distribution which are not covered by other licenses are
+released under a BSD like license without the ad clause. I.e. you are allowed
+to do anything with the source, but do not blame me for any results.
+
+
+-scut
+december 2001
+

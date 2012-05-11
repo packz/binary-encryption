@@ -1,0 +1,25 @@
+=====================================================
+
+The basic idea is that the decryptor stub is constructed from the crt1.o object
+and any other object files required by the vx_main.o... they are combined into
+a huge objectfile, which is then relocated for internal references... This 
+allows the parasite to be "arbitrarily" complex. There is no space restriction 
+on the parasite.
+
+The file ./obj/host has been injected and encrypted. Try it, and you will see
+that it works... there is some debugging information being dumped out right now
+but ignore that... this isn't even alpha software! :)
+
+The trial can be played with, under obj/ just try "make test"... You will want
+to note that host.orig is the uber-elite "Hello World" program. Then we encrypt,
+starting at .text, through to the end of the first PT_LOAD segment. The 
+parasite decryptor stub is injected, and then we write out the file. 
+
+This whole thing is very quick, but its a hack right now. Lots of hard coded
+cruft, and the like. I am close to being done with it though, because this is
+only the prototype for a "real" program: dacryfile.
+
+peace,
+
+--grugq.
+

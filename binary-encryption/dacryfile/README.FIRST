@@ -1,0 +1,11 @@
+The old README is preserved for posterity, but it is wrong. This is the limit
+of the development of dacryfile. Work has begun on a second generation binary
+protector, which doesn't use virus techniques at all. Some of this code is
+actually quite useful, for instance the injector will inject any object code
+into an ELF. If someone where to use it to infect binaries, I would be quite
+pissed off, however... that is a possible to do.
+
+
+peace,
+
+grugq

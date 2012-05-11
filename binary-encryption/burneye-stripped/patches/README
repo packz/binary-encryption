@@ -1,0 +1,9 @@
+
+Patch from the UPX project
+
+Allows loading of standard but too-modified-for-weak-gnu-utils ELF binaries
+using binutils and gdb.
+
+If two or less hunks fail thats ok, newer versions of gdb already include some
+type modifications done by this patch, doh!
+
