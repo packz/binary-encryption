@@ -36,7 +36,7 @@
 #include <string.h>
 #include <sys/types.h>
 #include <fcntl.h>
-#include <libelf/libelf.h>
+#include <libelf.h>
 
 int dump_dynamic(Elf *elf);
 Elf_Scn * get_scnbyname(Elf *elf, char *name, int *num);

@@ -30,7 +30,7 @@
  * SUCH DAMAGE.
  */
 
-#include <libelf/libelf.h>
+#include <libelf.h>
 #include <sys/stat.h>
 #include <sys/mman.h>
 #include <fcntl.h>

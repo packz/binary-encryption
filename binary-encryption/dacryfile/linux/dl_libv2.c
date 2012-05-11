@@ -32,9 +32,9 @@
 
 #include <linux/types.h>
 #include <asm/unistd.h>
-#include <linux/fcntl.h>
+#include <fcntl.h>
 #include <linux/mman.h>
-#include <linux/dirent.h>
+#include <dirent.h>
 
 #include "dl_libv2.h"
 

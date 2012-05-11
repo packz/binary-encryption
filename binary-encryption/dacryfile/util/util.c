@@ -30,7 +30,7 @@
  * SUCH DAMAGE.
  */
 
-#include <libelf/libelf.h>
+#include <libelf.h>
 #include <stdio.h>
 
 char *elf_dyn[] = {
